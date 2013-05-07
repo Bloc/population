@@ -1,16 +1,16 @@
 # Population
 
-The idea of the project is to show how a computer can do large amounts of data for us. We are using a free zipcode database from this [site](http://federalgovernmentzipcodes.us/). The population data is from 2008.
+The purpose of this program is to demonstrate how we can use code to efficiently analyze large amounts of data. We are using an extract from a free zipcode database from the [Federal Government Zip Codes](http://federalgovernmentzipcodes.us/) site in this program. The population data is from 2008.
 
-There are a few parts to this program:
+There are five parts to this program:
 
-1. `area` is a class to represent each of the locations within the csv.
-2. `csv_reader` will read the csv and give a block for each of the rows in the csv.
-3. `setup` does all of the gluing by calling `CSVReader` and then creating a new `Area` for each row.
-4. `analytics` performs various "queries" on the data
-5. `population` is the main menu for the application.
+1. `area.rb` is a class to represent each of the locations within the csv.
+2. `csv_reader.rb` will read the `csv` file and return a hash object for each of the rows in the `csv` file.
+3. `setup.rb` calls the `CSVReader` class and creates an `Area` instance for each row.
+4. `analytics.rb` performs various queries on the data.
+5. `population.rb` is the main menu for the application.
 
-To install and run the program: (if you are a Bloc student, make sure you are currently in your `code` directory)
+To install and run the program: (if you are a Bloc student, make sure you are in your `code` directory)
 
 ```bash
 $ pwd #=> should be your code directory
