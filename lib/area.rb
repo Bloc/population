@@ -28,6 +28,6 @@ class Area
   end
 
   def to_s
-    "#{city}, #{state} #{zipcode} has #{estimated_population} people"
+    "#{city}, #{state} #{zipcode} has #{estimated_population} people."
   end
 end

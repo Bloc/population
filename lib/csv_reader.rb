@@ -3,6 +3,9 @@
 
 class CSVReader
   
+  attr_accessor :fname
+  attr_accessor :headers
+  
   def initialize(filename)
     @fname = filename
   end
