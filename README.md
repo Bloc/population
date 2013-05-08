@@ -19,3 +19,11 @@ $ cd population
 $ ruby population.rb
 ```
 
+You'll also need to install RSpec to run the specs:
+
+```bash
+$ gem install rspec
+$ pwd #=> should be your population directory
+$ rspec specs #=> runs the tests
+```
+
