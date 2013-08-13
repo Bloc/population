@@ -28,11 +28,11 @@ class CSVReader
 
     @headers.map! do |h|
       # remove quotes
-      new_header = h.gsub('"', '')
+      h.gsub!('"', '')
       # remove new line
-      new_header.strip!
+      h.strip!
       # convert to a symbol
-      new_header.underscore.to_sym
+      h.underscore.to_sym
     end
   end
 
